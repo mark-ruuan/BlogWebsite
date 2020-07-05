@@ -20,3 +20,8 @@
     color: #5f9ea0; 
 }
 
+.logoContainer img{
+    padding: 0 1px;
+    cursor: pointer;
+}
+
