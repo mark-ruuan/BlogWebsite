@@ -1,5 +1,7 @@
 import React from 'react'
 import './style.css';
+import Layout from '../../components/Layout';
+import UnderConstruction from '../../components/UnderConstruction';
 
 /**
 * @author
@@ -8,7 +10,9 @@ import './style.css';
 
 const ContactUs = (props) => {
   return(
-    <div>ContactUs</div>
+    <Layout>
+      <UnderConstruction style={{width:'73%'}}/>
+    </Layout>
    )
 
  }
